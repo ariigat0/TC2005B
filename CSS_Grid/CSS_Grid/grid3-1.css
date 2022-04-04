@@ -1,0 +1,53 @@
+body
+{
+    background-image: image();
+    height: 100vh;
+}
+
+h1
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid2
+{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 33%, 50% 17%;
+    grid-template-areas: "uno uno dos dos" "tres cuat cuat cuat" "cin cin cin cin";
+    gap: 10px;
+}
+
+.grid2_1
+{
+    grid-area: uno;
+    background-color: #d4ff00;
+
+}
+
+.grid2_2
+{
+    grid-area: dos;
+    background-color: #00fff2;
+}
+
+.grid2_3
+{
+    grid-area: tres;
+    background-color: #ff0000;
+}
+
+.grid2_4
+{
+    grid-area:cuat;
+    background-color: #15ff00;
+}
+
+.grid2_5
+{
+    grid-area: cin;
+    background-color: #ff008c;
+}

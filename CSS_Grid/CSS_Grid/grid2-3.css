@@ -1,0 +1,30 @@
+body
+{
+    background-color: rgb(222, 255, 34);
+    height: 100vh;
+}
+
+h1
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+.parent
+{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 50%);
+    gap: 10px;
+    align-items:stretch;
+    
+}
+
+.parent img{
+    width: 450px;
+    height: 330px;
+    object-fit: cover;
+}

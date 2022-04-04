@@ -1,0 +1,43 @@
+body
+{
+    background-color: rgb(222, 255, 34);
+    height: 100vh;
+}
+
+h1
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+.grd7 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 150px);
+    gap: 10px;
+}
+
+.grd7_1
+{
+    grid-area: 1/1/1/-1;
+    background-color: #b0f86c;
+}
+
+.grd7_2
+{
+    grid-row: span 2;
+    background-color: #43caff;
+}
+.grd7_3
+{
+    grid-area: 2/2/4/-1;
+    background-color: #ff4848;
+}
+.grd7_4
+{
+    grid-area: 4/1/4/-1;
+    background-color: #e235da;
+}

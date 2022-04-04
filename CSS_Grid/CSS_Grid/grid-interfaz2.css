@@ -1,0 +1,32 @@
+h1
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+.grd9
+{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px 200px 200px;
+    gap:10px;
+}
+
+.grd9_1
+{
+    grid-area: 1/1/1/-1;
+    background-color: #66c8f5;
+}
+.grd9_2
+{
+    grid-area: 2/1/-1/1;
+    background-color: #7cf582;
+}
+.grd9_3
+{
+    grid-area: 2/2/2/-1;
+    background-color: #fffd73;
+}
